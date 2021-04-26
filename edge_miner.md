@@ -16,26 +16,6 @@ export IPFS_PATH=/path/to/ipfsrepo  //指定ipfs仓库目录
 ipfs init
 ```
 
-### 修改配置文件
-
-修改上面指定目录配置文件 `$IPFS_PATH/config`
-
-```
-  "Addresses": {
-    "Swarm": [
-      "/ip4/0.0.0.0/tcp/4001",
-      "/ip6/::/tcp/4001",
-      "/ip4/0.0.0.0/udp/4001/quic",
-      "/ip6/::/udp/4001/quic"
-    ],
-    "Announce": [],
-    "NoAnnounce": [],
-    "API": "/ip4/127.0.0.1/tcp/5001",  // 这里改成 "/ip4/0.0.0.0/tcp/5001"
-    "Gateway": "/ip4/127.0.0.1/tcp/8080"
-  },
-
-```
-
 ### 运行IPFS
 
 
