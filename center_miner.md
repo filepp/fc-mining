@@ -8,7 +8,7 @@ cd go-ipfs
 make build
 cp cmd/ipfs /usr/local/bin
 ```
-####Louts（略）
+#### Louts（略）
 #### IPFC
 ```
 git clone  https://git.filep.vip/ruitai/ipfc
