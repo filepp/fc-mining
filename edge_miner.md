@@ -64,8 +64,6 @@ set IPFS_PATH=D:\ipfs
 ipfs init
 ```
 
-### 运行IPFS矿工节点
-
 运行ipfs，需要指定矿工角色,(miner-role=1代表边缘节点)
 ```
 ipfs daemon --enable-pubsub-experiment=true --enable-mining=true --miner-role=0
