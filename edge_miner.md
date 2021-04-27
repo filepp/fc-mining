@@ -24,7 +24,7 @@ cp cmd/ipfs /usr/local/bin
 export IPFS_PATH=/data/ipfs
 ```
 
-初始化
+初始化节点
 ```
 ipfs init
 ```
@@ -47,7 +47,7 @@ ipfs id
 git clone https://github.com/filepp/go-ipfs
 ```
 
-编译
+编译，生成ipfs.exe文件
 ```
 cd go-ipfs
 go build cmd/ipfs  
@@ -59,23 +59,22 @@ go run github.com/GeertJohan/go.rice/rice append --exec ipfs.exe -i ./miner/buil
 set IPFS_PATH=D:\ipfs
 ```
 
-初始化
+初始化节点
 ```
-ipfs.exe init
+ipfs init
 ```
 
 ### 运行IPFS矿工节点
 
 运行ipfs，需要指定矿工角色,(miner-role=1代表边缘节点)
 ```
-ipfs.exe daemon --enable-pubsub-experiment=true --enable-mining=true --miner-role=0
+ipfs daemon --enable-pubsub-experiment=true --enable-mining=true --miner-role=0
 ```
 
 查看 PeerID， 记录下来，后面会用到。
 ```
-ipfs.exe id
+ipfs id
 ```
-
 
 ### 调用合约创建矿工
 
