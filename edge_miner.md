@@ -15,11 +15,11 @@ git clone https://github.com/filepp/go-ipfs
 ```
 cd go-ipfs
 make build
-cp cmd/ipfs /usr/local/bin
+cp cmd/ipfs/ipfs /usr/local/bin
 ```
 
 
-通过环境变量IPFS_PATH配置工作目录  
+通过环境变量IPFS_PATH配置工作目录 (确保/data/ipfs目录存在)。
 ```
 export IPFS_PATH=/data/ipfs
 ```
