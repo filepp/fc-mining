@@ -31,7 +31,7 @@ ipfs init
 
 运行ipfs，需要指定矿工角色,(miner-role=1代表边缘节点)
 ```
-ipfs daemon --enable-pubsub-experiment=true --enable-mining=true --miner-role=0
+ipfs daemon --enable-pubsub-experiment=true --enable-mining=true --miner-role=1
 ```
 
 查看 PeerID， 记录下来，后面会用到。
@@ -66,7 +66,7 @@ ipfs init
 
 运行ipfs，需要指定矿工角色,(miner-role=1代表边缘节点)
 ```
-ipfs daemon --enable-pubsub-experiment=true --enable-mining=true --miner-role=0
+ipfs daemon --enable-pubsub-experiment=true --enable-mining=true --miner-role=1
 ```
 
 查看 PeerID， 记录下来，后面会用到。
