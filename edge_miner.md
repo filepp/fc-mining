@@ -89,7 +89,7 @@ https://data-seed-prebsc-1-s1.binance.org:8545/
 
 - 用BNB兑换10个FC。 点 `Exchange FC Tokens`, 输入10。 在MetaMask中添加代码，输入合约地址  
 
-`0x678536F72bF95f80F46F42970db664D06554cb7e`, 可以看到领取的FC
+`0xc24A8E5Ff6d36725EeDea49f65d95a2606144B29`, 可以看到领取的FC
 
 ![](files/02.png)
 
