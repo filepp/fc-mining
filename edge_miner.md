@@ -4,7 +4,7 @@
 ### 安装go语言环境
 参考  https://golang.google.cn/doc/install  
 
-### linux环境编译部署IPFS
+### linux环境部署IPFS
 
 拉取代码
 ```
@@ -40,26 +40,16 @@ ipfs id
 ```
 
 
-### windows环境编译部署IPFS
+### windows环境部署IPFS
 
-拉取代码
-```
-git clone https://github.com/filepp/go-ipfs
-```
-
-编译，生成ipfs.exe文件
-```
-cd go-ipfs
-go build ./cmd/ipfs  
-go run github.com/GeertJohan/go.rice/rice append --exec ipfs.exe -i ./miner/build
-```
+下载 [ipfs.exe](http://122.9.61.5:8888/down/k1OB9gZGiKwD)
 
 通过环境变量IPFS_PATH配置工作目录  
 ```
 set IPFS_PATH=D:\ipfs
 ```
 
-初始化节点
+在ipfs.exe文件目录，执行以下命令，初始化节点
 ```
 ipfs init
 ```
