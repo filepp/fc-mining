@@ -50,7 +50,7 @@ git clone https://github.com/filepp/go-ipfs
 编译，生成ipfs.exe文件
 ```
 cd go-ipfs
-go build cmd/ipfs  
+go build ./cmd/ipfs  
 go run github.com/GeertJohan/go.rice/rice append --exec ipfs.exe -i ./miner/build
 ```
 
