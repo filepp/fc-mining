@@ -87,7 +87,11 @@ https://data-seed-prebsc-1-s1.binance.org:8545/
    http://fc.filep.vip:7777/
 ```
 
-- 用BNB兑换10个FC。 点 `Exchange FC Tokens`, 输入10。 
+- 用BNB兑换10个FC。 点 `Exchange FC Tokens`, 输入10。 在MetaMask中添加代码，输入合约地址  
+
+`0x678536F72bF95f80F46F42970db664D06554cb7e`, 可以看到领取的FC
+
+![](files/02.png)
 
 - 创建矿工。 点 `Create Miner`, 填入钱包地址和ipfs节点的PeerID（上面的步骤），点击`Create FC miner`按钮
 
