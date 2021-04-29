@@ -1,10 +1,10 @@
 
 ## 边缘节点挖矿
 
-### 安装go语言环境
-参考  https://golang.google.cn/doc/install  
-
 ### linux环境部署IPFS
+
+安装go语言环境  
+参考  https://golang.google.cn/doc/install  
 
 拉取代码
 ```
@@ -34,7 +34,7 @@ ipfs init
 ipfs daemon --enable-pubsub-experiment=true --enable-mining=true --miner-role=1
 ```
 
-查看 PeerID， 记录下来，后面会用到。
+查看 PeerID， 记录下来，后面会用到。（注意环境变量 IPFS_PATH 要与上面配置的一致）
 ```
 ipfs id
 ```
@@ -59,7 +59,7 @@ ipfs init
 ipfs daemon --enable-pubsub-experiment=true --enable-mining=true --miner-role=1
 ```
 
-查看 PeerID， 记录下来，后面会用到。
+查看 PeerID， 记录下来，后面会用到。（注意环境变量 IPFS_PATH 要与上面配置的一致）
 ```
 ipfs id
 ```
@@ -77,7 +77,7 @@ https://data-seed-prebsc-1-s1.binance.org:8545/
 
 ![](files/01.jpg)
 
--  从水龙头领取NBN测试币  
+-  从水龙头领取BNB测试币  
 ```
   https://testnet.binance.org/faucet-smart
 ```
